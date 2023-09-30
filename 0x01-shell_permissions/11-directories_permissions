@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod --reference=0x01-shell_permissions 777 {} \;
+find . -type d -exec chmod --reference=0x01-shell_permissions 777 {} \
