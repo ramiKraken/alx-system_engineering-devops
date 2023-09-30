@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --reference=.
+sudo find -type d -exec chmod --reference=0x01-shell_permissions {} \;
